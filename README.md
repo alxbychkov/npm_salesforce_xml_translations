@@ -16,9 +16,7 @@ Here's an example usage of this package:
 
 ```
 import { xml_translations_prepare } from "salesforce_xml_translations"; 
-```
 
-```
 const config = {
     'LIBRARIES': ['plein-outlet-shared-library'],
     'XMLNS': 'http://www.demandware.com/xml/impex/library/2006-10-31',
