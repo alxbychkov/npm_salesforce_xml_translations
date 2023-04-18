@@ -28,17 +28,14 @@ xml_translations_prepare(config);
 ```
 
 The xml_translations_prepare function takes a configuration object, which specifies the following properties:
+--------------------------------
 
-
-
-LIBRARIES: an array of library names
-XMLNS: the XML namespace to use
-xlsxFileName: the name of the Excel file to import
-xlsxSheetName: the name of the Excel sheet to import
-
+* LIBRARIES: an array of library names
+* XMLNS: the XML namespace to use
+* xlsxFileName: the name of the Excel file to import
+* xlsxSheetName: the name of the Excel sheet to import
 
 The function returns nothing. Instead, it creates one or more XML files in the current directory, which are ready to be imported into Salesforce B2C Commerce.
-
 
 ## Contributing
 
