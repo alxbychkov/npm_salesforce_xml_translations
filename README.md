@@ -6,7 +6,9 @@ This package provides a simple way to prepare XML files for import into Salesfor
 
 You can install this package using npm:
 
+```
 npm install salesforce_xml_translations
+```
 
 ## Usage
 
