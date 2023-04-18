@@ -1,0 +1,21 @@
+{
+  "name": "salesforce_xml_translations",
+  "version": "1.0.0",
+  "description": "Function that create xml file with translations from xmls file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "salesforce",
+    "xml",
+    "assets"
+  ],
+  "author": "Alexander Bychkov <alx.bychkov@mgmail.com>",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "xlsx": "^0.18.5",
+    "xmlbuilder": "^15.1.1"
+  }
+}
