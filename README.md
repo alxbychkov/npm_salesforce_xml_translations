@@ -1,4 +1,4 @@
-### Salesforce XML Translations
+# Salesforce XML Translations
 
 This package provides a simple way to prepare XML files for import into Salesforce B2C Commerce.
 
@@ -12,8 +12,11 @@ npm install salesforce_xml_translations
 
 Here's an example usage of this package:
 
+```
 import { xml_translations_prepare } from "salesforce_xml_translations"; 
+```
 
+```
 const config = {
     'LIBRARIES': ['plein-outlet-shared-library'],
     'XMLNS': 'http://www.demandware.com/xml/impex/library/2006-10-31',
@@ -22,7 +25,7 @@ const config = {
 }
 
 xml_translations_prepare(config);
-
+```
 
 The xml_translations_prepare function takes a configuration object, which specifies the following properties:
 
